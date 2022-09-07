@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("938169387/test")
+       app = docker.build("938169387")
     }
 
     stage('Test image') {
